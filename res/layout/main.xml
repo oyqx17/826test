@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--xmlns:my="http://schemas.android.com/apk/res/com.example"-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:my="http://schemas.android.com/apk/res/com.example"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+  <!--<com.example.MyImageView-->
+  <!--android:id="@+id/image_view"-->
+  <!--android:src="@drawable/ic"-->
+  <!--android:layout_gravity="center"-->
+  <!--android:layout_width="wrap_content"-->
+  <!--android:layout_height="wrap_content"-->
+  <!--/>-->
+  <ImageView
+      android:id="@+id/image_view"
+      android:src="@drawable/ic"
+      android:layout_gravity="center"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="#FFFFFFF0"
+      />
+  <com.example.M2image
+      android:id="@+id/mM2image"
+      android:src="@drawable/ic"
+      android:layout_toRightOf="@id/image_view"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      my:textColor="#FFFFFFFF"
+      my:textSize="22dp"
+      />
+  <!--android:layout_marginBottom="20dp"-->
+  <!--android:layout_gravity="center"-->
+</RelativeLayout>
+
